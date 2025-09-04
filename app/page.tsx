@@ -5,21 +5,22 @@ export default function Home() {
   return (
     <main className="w-screen h-screen relative ">
       <div
-        className="flex items-center w-full h-full bg-cover bg-center"
+        className="flex items-center w-full h-full bg-cover bg-center px-20"
         style={{ backgroundImage: "url(/main-bg.webp)" }}
       >
-        <div className="pl-20 md:pl-40 pb-56 md:pd-20 flex flex-col gap-5 z-[10] max-w-[750px]">
+        <div className="flex flex-col gap-5 z-[10] max-w-[630px]">
           <h1 className="text-[50px] text-white font-semibold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-              I'm Joseph
+              Hi, I’m Joseph!
             </span>
-            , a Web Developer
           </h1>
           <p className="text-gray-200 hidden md:block">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae
-            pariatur similique beatae doloremque expedita. Quo sed nihil
-            repellat eius at, exercitationem quod placeat fugiat nobis! Esse
-            tempora ea aspernatur architecto!
+            A web developer and IT enthusiast with experience in creating
+            web-based systems, monitoring platforms, and interactive
+            applications. I specialize in Next.js, React, and Node.js. I’m
+            passionate about developing solutions that make processes simpler
+            and more efficient. This portfolio showcases my projects, skills,
+            and creative journey in tech.
           </p>
           <div className="flex-col md:flex-row hidden md:flex gap-5">
             <Link
